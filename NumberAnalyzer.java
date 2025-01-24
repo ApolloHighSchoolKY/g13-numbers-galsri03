@@ -1,4 +1,4 @@
-//© A+ Computer Science  -  www.apluscompsci.com
+//ï¿½ A+ Computer Science  -  www.apluscompsci.com
 //Name -
 //Date -
 //Class -
@@ -16,29 +16,31 @@ public class NumberAnalyzer
 	public NumberAnalyzer()
 	{
 		//Just make the ArrayList exist.
+		numbaList = new ArrayList<>();
 	}
 
 	//Modified Constructor
 	public NumberAnalyzer(String numbers)
 	{
 		//Make the list exist first
-
+		numbaList = new ArrayList<>();
 		//Filter the parameter through to the set method
-
+		setList(numbers);
 	}
 
 	//Methods
 	public void setList(String numbers)
 	{
 		//Clear the list
-
+		numbaList.clear();
 
 		//Create a scanner to chop up the string of numbers
-
+		Scanner scanDatTang = new Scannner(Numbers);
 
 		//Chop up the string
-
-
+		// While loop 
+		While(scanDatTang.)))
+		numbaList.add
 	}
 
 	public int countOdds()
