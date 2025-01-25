@@ -46,25 +46,25 @@ public class Number
 
 		//A perfect number is any number equal to the sum of its divisors
 		//excluding itself.
-		for(int i = 1; i<= number/2; i++)
-		if(number%i==0)
-		{
-			total += i;
-		}
-
+		for(int i = 1; i< number; i++)
+			if(number%i==0)
+				total += i;
 
 		return (number==total);
 	}
 
 	public String toString( )
 	{
+		
+		return number.toString();
 
-		String returnString;
+		//String returnString;
 
-		returnString = number + "\n";
-		returnString += number + " isOdd == " + isOdd() + "\n";
-		returnString += number + " isPerfect == " + isPerfect() + "\n\n";
+		//returnString = number + "\n";
+		//returnString += number + " isOdd == " + isOdd() + "\n";
+		//returnString += number + " isPerfect == " + isPerfect() + "\n\n";
 
-		return "" + returnString;
+		//return "" + returnString;
+		//return "" + number;
 	}
 }
